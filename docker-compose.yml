@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  example:
+    container_name: login-govbr
+    build: .docker/apache-php5.6
+    #image: webdevops/php-apache-dev:7.2
+    #image: webdevops/php-apache-dev:8.0
+    working_dir: /app
+
+    volumes:
+      - .:/app
+    ports:
+      - 80:80
+      - 443:443

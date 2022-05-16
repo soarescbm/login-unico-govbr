@@ -1,0 +1,21 @@
+{
+    "name": "soarescbm/login-unico-govbr",
+    "description": "'Pacote para autenticacao ao login único gov.br conforme especificações Oauth2'",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Soarescbm\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paulo Soares",
+            "email": "soarescbm@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7 || ^8",
+        "league/oauth2-client": "^2.6"
+    }
+}
